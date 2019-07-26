@@ -1,0 +1,116 @@
+.dropbtn {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius:  10%;
+  }
+/*text site syle*/
+  .textColor {
+    text-decoration-color: orange;
+    text-decoration-style: solid;
+    text-justify: auto; 
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    
+
+
+  }
+  .dropdown {
+    position: relative;
+   display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+   z-index: 1;
+  }
+  /*Style  line*/
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /*Couleur quand on survole le menu*/
+  
+  .dropdown-content a:hover {background-color: orange;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color:rgb(5, 44, 59);}
+/*enlever le soulignement*/
+a:link{ 
+    text-decoration:none; 
+} 
+
+/*
+a:hover{
+ background-color:orange
+}
+
+*/
+.size-btn-lng{
+  width:50px;
+  height:10%;
+  border-radius:13%;
+  border: none;
+}
+/*vertical ligne
+.vl1 {
+  border-right: 6px solid orange;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  
+  padding: auto;
+  float: left;
+  top:9px;
+}
+*/
+ 
+/*-style text aligner a droite*/
+.style-left-menu{
+
+ background-color: orange;
+    margin-left: 89%;
+    margin-top: -20px;
+}
+
+/*
+.size-carousel{
+  width:50%;
+  height:30%;
+}
+*/
+/*
+select:hover{
+  background-color:orange;
+}
+
+.lng-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+.lng-content select{
+  color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+*/
+/*
+select color
+.lng-content select:hover{background-color: orange;}
+.lng-content select:hover {background-color: orange;}
+.lng-content:hover .lng-content {display: block;}*/
